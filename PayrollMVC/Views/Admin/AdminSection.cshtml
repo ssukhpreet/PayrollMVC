@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "AdminSection";
+}
+
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="~/Img/admin.jpg" class="img-thumbnail"/>
+
+        </div>
+        <div class="col-lg-6">
+            <h1>Admin Login</h1>
+            <hr/>
+            <form method="post" action="adminCheck">
+                <div class="form-group my-4">
+                    <label for="contactemail">Email</label>
+                    <input type="text" id="AdminName" name="AdminName" class="form-control" required />
+
+
+                </div>
+                <div class="form-group">
+                    <label for="contactusername">Password</label>
+                    <input type="password" id="AdminPassword" name="AdminPassword" class="form-control" required />
+
+                </div>
+
+                <input type="submit" name="Login" class="btn btn-warning" />
+
+            </form>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<div class="container">
+    <h1>Wel Come to the Working Area </h1>
+    <a href='@Url.Action("Staff","staff")' class="btn btn-primary">Staff Details </a><br />
+    <a href='@Url.Action("Salary","Salary")' class="btn btn-primary">Salary Details </a><br />
+    <a href='@Url.Action("Attendence","Attendence")' class="btn btn-primary">Attendence Details </a><br />
+    <h6 class="btn login-button-2 text-uppercase text-wh"> @Html.ActionLink("Back to Main", "Index", "Home") </h6>
+
+</div>
